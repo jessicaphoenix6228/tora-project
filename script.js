@@ -18,4 +18,4 @@ function displayResults(data) {
         postElement.innerHTML = `<h2>${post.title}</h2><p>${post.body}</p>`;
         resultsContainer.appendChild(postElement);
     });
-}
+} 
