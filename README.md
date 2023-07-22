@@ -4,17 +4,12 @@ Welcome to Tora Project - a web application that displays basic HTML, CSS, and J
 
 ## Description
 
-For my URL I used: " " and they give off data that randomly gives me cat facts that every cat owner will love! I generated it to be random at all times whenever someone refereshes the page!
+For my URL I used: " https://jsonplaceholder.typicode.com/users/1/todos" and they give off data that randomly gives me Latin Phrases that are randomly generated in a JSON file to show off the power of transferring data from one site off to another!
 
-## Getting Started:
-
-### Installing
-
-You can run 'git clone' in terminal after copying either a HTTPS or SSH code AFTER the command git clone. 
 
 ### Executing program
 
-I will set up an https link soon to the page. 
+Here is the page's website URL: 
 
 
 ## About
