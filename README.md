@@ -22,7 +22,7 @@ Enjoy!
 
 ## About
 
-* Developer - Jessica Phoeni
+* Developer - Jessica Phoenix
 * Email - jessica.phoenix30@gmail.com 
 * Blog URL: https://medium.com/@phxrising30
 * Linkedin Profile: https://www.linkedin.com/in/phxrising30/
