@@ -11,6 +11,10 @@ For my URL I used: " https://jsonplaceholder.typicode.com/users/1/todos" and the
 
 Here is the page's website URL: https://jessicaphoenix6228.github.io/tora-project/
 
+## Acknowledgments
+
+* Merlin Ragdoll - https://www.facebook.com/merlinragdoll/ (THANK YOU!)
+
 
 ## About
 
