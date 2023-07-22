@@ -21,13 +21,11 @@ For my URL I used: " " and they give off data that randomly gives me cat facts t
 code blocks for commands
 ```
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+## About
 
-
-## Acknowledgments
+* Developer - Jessica Phoenix
+* Email - jessica.phoenix30@gmail.com 
+* Blog URL: https://medium.com/@phxrising30
+* Linkedin Profile: https://www.linkedin.com/in/phxrising30/
 
