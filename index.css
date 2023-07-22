@@ -44,13 +44,10 @@
     margin-top: 20px;
   }
 
-  .fact-container {
-    padding: 10px;
-    text-align: center;
-    background: lightgreen;
-    border: 1px solid darkgreen;
-    border-radius: 5px;
-    margin-top: 10px;
+  .resultsContainer {
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 20px;
   }
   
   .row::after {
