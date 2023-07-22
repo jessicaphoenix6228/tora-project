@@ -9,7 +9,11 @@ For my API URL I used: " https://jsonplaceholder.typicode.com/users/1/todos" and
 
 ### Executing program
 
-Here is the page's website URL: https://jessicaphoenix6228.github.io/tora-project/
+* Here is the page's website URL: https://jessicaphoenix6228.github.io/tora-project/
+
+* Here is the project's first video: https://youtu.be/B7IyreRalSk
+
+Enjoy!
 
 ## Acknowledgments
 
