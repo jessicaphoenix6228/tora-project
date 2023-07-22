@@ -3,9 +3,10 @@
   }
   
   body {
-    font-family: Arial;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
     padding: 10px;
-    background: white;
+    background: lightsteelblue;
   }
   
 
@@ -44,12 +45,6 @@
     margin-top: 20px;
   }
 
-  .resultsContainer {
-    background-color: lightgreen;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
   .row::after {
     content: "";
     display: table;
