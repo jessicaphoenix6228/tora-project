@@ -4,7 +4,7 @@ const resultsContainer = document.getElementById('resultsContainer');
 fetchButton.addEventListener('click', fetchData);
 
 function fetchData() {
-    fetch('https://jsonplaceholder.typicode.com/posts')
+    fetch('https://jsonplaceholder.typicode.com/users/1/todos')
         .then(response => response.json())
         .then(data => displayResults(data))
         .catch(error => console.error('Error fetching data:', error));
