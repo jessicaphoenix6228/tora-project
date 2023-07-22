@@ -10,16 +10,11 @@ For my URL I used: " " and they give off data that randomly gives me cat facts t
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+You can run 'git clone' in terminal after copying either a HTTPS or SSH code AFTER the command git clone. 
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+I will set up an https link soon to the page. 
 
 
 ## About
