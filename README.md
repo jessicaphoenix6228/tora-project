@@ -1,10 +1,9 @@
 # Tora Project
 
-Welcome to Tora Project - my web application that displays basic HTML, CSS, and Javascript that requests data from an API!
-
+Welcome to Tora Project - my web application that displays HTML, CSS, and Javascript that uses the fetch() command to request data from a local API database. 
 ## Description
 
-For my API URL I used: " https://jsonplaceholder.typicode.com/users/1/" and they gave off data that randomly gave me Latin Phrases that are randomly generated in a JSON file to show off the power of transferring data from one site off to another!
+For my API URL I used: " https://jsonplaceholder.typicode.com/users/1/" . When the "Fetch Data" button is clicked, it will trigger the API request, and once the data is retrieved successfully, it will be displayed within the container div.
 
 
 ### Executing program

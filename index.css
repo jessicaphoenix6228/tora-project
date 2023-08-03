@@ -28,12 +28,10 @@
     background-position: right top;
     background-size: cover;
   }
-
-  #apiContainer {
-      width: 1200px;
-      height: 630px;
-      background-color: seagreen;
-  }
+  .container {
+    border: 1px solid #ccc;
+    padding: 10px; 
+}
 
   .row::after {
     content: "";

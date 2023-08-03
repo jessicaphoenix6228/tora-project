@@ -1,7 +1,7 @@
 const madButton = document.getElementById('madButton');
 const sadButton = document.getElementById('sadButton');
 const fetchButton = document.getElementById('fetchButton');
-const apiContainer = document.getElementById('apiContainer');
+const container = document.getElementById('container');
 
 
 madButton.addEventListener('click',
@@ -17,10 +17,16 @@ sadButton.addEventListener('click',
 )
 
 
-//*fetchButton.addEventListener('click', data);
+fetchButton.addEventListener("click", () => {
+    fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(data => {
+    const apiData = JSON.stringify(data, null, 2);
+    container.innerHTML = `<pre>${apiData}</pre>`;
+})
+.catch((error) => {
+  console.error("Error fetching data:", error);
+  container.innerHTML = "<p>Error fetching data. Please try again later.</p>";
+});
 
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then(response => response.json())
-      .then(data => {
-        console.log(data);
-      })
+});
