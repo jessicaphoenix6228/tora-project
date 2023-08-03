@@ -4,7 +4,7 @@ Welcome to Tora Project - my web application that displays basic HTML, CSS, and 
 
 ## Description
 
-For my API URL I used: " https://jsonplaceholder.typicode.com/users/1/todos" and they gave off data that randomly gave me Latin Phrases that are randomly generated in a JSON file to show off the power of transferring data from one site off to another!
+For my API URL I used: " https://jsonplaceholder.typicode.com/users/1/" and they gave off data that randomly gave me Latin Phrases that are randomly generated in a JSON file to show off the power of transferring data from one site off to another!
 
 
 ### Executing program
