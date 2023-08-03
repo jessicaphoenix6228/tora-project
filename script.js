@@ -1,21 +1,26 @@
+const madButton = document.getElementById('madButton');
+const sadButton = document.getElementById('sadButton');
 const fetchButton = document.getElementById('fetchButton');
-const resultsContainer = document.getElementById('resultsContainer');
+const apiContainer = document.getElementById('apiContainer');
 
-fetchButton.addEventListener('click', fetchData);
 
-function fetchData() {
-    fetch('https://jsonplaceholder.typicode.com/users/1/todos')
-        .then(response => response.json())
-        .then(data => displayResults(data))
-        .catch(error => console.error('Error fetching data:', error));
-}
+madButton.addEventListener('click',
+    function madShow() {
+        document.getElementById("myContainer").style.backgroundImage = "url(https://img.freepik.com/free-photo/flame-border-background-black-realistic-fire-image_53876-153392.jpg)";
+     }
+)
 
-function displayResults(data) {
-    resultsContainer.innerHTML = '';
+sadButton.addEventListener('click',
+    function sadShow() {
+        document.getElementById("myContainer").style.backgroundImage = "url(https://img.freepik.com/premium-photo/rainy-glass-texture-ai-generative_458817-6217.jpg)";
+    }
+)
 
-    data.forEach(post => {
-        const postElement = document.createElement('div');
-        postElement.innerHTML = `<h2>${post.title}</h2><p>${post.body}</p>`;
-        resultsContainer.appendChild(postElement);
-    });
-} 
+
+//*fetchButton.addEventListener('click', data);
+
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+      .then(data => {
+        console.log(data);
+      })
